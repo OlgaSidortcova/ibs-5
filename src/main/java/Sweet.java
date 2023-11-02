@@ -3,9 +3,9 @@ public abstract class Sweet {
     private Double price;
     private String brand;
     private int number;
-    private float weight;
+    private double weight;
 
-    public Sweet(String name, Double price, String brand, int number, float weight) {
+    public Sweet(String name, double price, String brand, int number, double weight) {
         this.name = name;
         this.price = price;
         this.brand = brand;
@@ -47,11 +47,11 @@ public abstract class Sweet {
         this.number = number;
     }
 
-    public float getWeight() {
+    public Double getWeight() {
         return weight;
     }
 
-    public void setWeight(float weight) {
+    public void setWeight(Double weight) {
         this.weight = weight;
     }
 
@@ -59,7 +59,7 @@ public abstract class Sweet {
     @Override
     public  String toString(){
         return  "Наименование = " + name + ", цена = " + price + ", вес = " + weight + ", id = " + number + ", фирма = " + brand ;
-       
+
 
     }
 }

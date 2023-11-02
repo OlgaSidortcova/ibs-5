@@ -2,7 +2,7 @@ public class Macaroon extends Sweet {
 
     private int count;
 
-    public Macaroon(String name, Double price, String brand, int number, float weight, int count) {
+    public Macaroon(String name, double price, String brand, int number, double weight, int count) {
         super(name, price, brand, number, weight);
         this.count = count;
     }

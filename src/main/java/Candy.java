@@ -1,7 +1,7 @@
 public class Candy extends Sweet {
     private  String size;
 
-    public Candy(String name, Double price, String brand, int number, float weight, String size) {
+    public Candy(String name, double price, String brand, int number, double weight, String size) {
         super(name, price, brand, number, weight);
         this.size = size;
     }

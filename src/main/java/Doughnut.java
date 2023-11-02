@@ -2,7 +2,7 @@ public class Doughnut extends Sweet {
 
     private String taste;
 
-    public Doughnut(String name, Double price, String brand, int number, float weight, String taste) {
+    public Doughnut(String name, double price, String brand, int number, double weight, String taste) {
         super(name, price, brand, number, weight);
         this.taste = taste;
     }
